@@ -6,7 +6,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory('testing'),
+  history: createWebHashHistory('/testing/'),
   routes,
 })
 
