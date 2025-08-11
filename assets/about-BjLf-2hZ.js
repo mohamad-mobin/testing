@@ -1,0 +1,1 @@
+import{_ as o,c as r,a as s,b as a,r as n,F as c,o as l}from"./index-C-3g1JXV.js";const _={};function p(u,e){const t=n("router-view");return l(),r(c,null,[e[0]||(e[0]=s("h1",{class:"bg-purple-200 text-2xl"},"this page is about",-1)),a(t)],64)}const m=o(_,[["render",p]]);export{m as default};
