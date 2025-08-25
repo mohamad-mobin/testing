@@ -1,25 +1,17 @@
 <template>
+    <headerMenu />
     <router-view />
-    <header />
-    <baseMain/>
-    <gallery />
-    <tab />
+
 </template>
 
 <script>
 
-import header from './components/header.vue'
-import baseMain from './components/baseMain.vue'
-import gallery from './components/gallery.vue';
-import tab from './components/tab.vue';
+import headerMenu from './components/headerMenu.vue'
 
 export default {
     name:'app',
     components:{
-        header,
-        baseMain,
-        gallery,
-        tab
+        headerMenu,
     }
 }
 </script>
@@ -28,7 +20,7 @@ export default {
 
 body{
     padding-top: 80px;
-    padding-bottom: 2000px;
+    padding-bottom: 400px;
 }
 
 </style>

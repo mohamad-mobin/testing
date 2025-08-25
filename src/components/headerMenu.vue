@@ -69,7 +69,7 @@
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
     <nav class="px-4 py-2 space-y-2">
-      <a href="#" class="block text-gray-700 hover:text-indigo-600 transition">خانه</a>
+      <router-link to="/" href="#" class="block text-gray-700 hover:text-indigo-600 transition">خانه</router-link>
       <a href="#" class="block text-gray-700 hover:text-indigo-600 transition">درباره ما</a>
       <a href="#" class="block text-gray-700 hover:text-indigo-600 transition">خدمات</a>
       <a href="#" class="block text-gray-700 hover:text-indigo-600 transition">تماس</a>
