@@ -51,9 +51,15 @@
         </div>
      </div>
 
+     <div class="text-center">
+         <a class="text-red-600 bg-blue-200 px-4 py-2" href="#">go to top and check lenis</a>
+     </div>
 </template>
 
 <script>
+import { onMounted, onBeforeUnmount } from "vue"
+import { initLenis, destroyLenis } from '@/library/lenis.js'
+
 import samsungA15 from '../../img/samsung-a15.png'
 import nothing from '../../img/nothing.png'
 import iphone11pro from '../../img/iphone11pro.png'
@@ -100,5 +106,14 @@ export default {
             document.body.style.overflow = 'visible'
         }
     },
+      setup(){
+    onMounted(() => {
+       initLenis()
+    })
+
+    onBeforeUnmount(() => {
+       destroyLenis()
+    })
+  }
 }
 </script>
