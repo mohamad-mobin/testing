@@ -41,7 +41,7 @@
 
       <!-- Mobile Menu Button -->
       <div class="md:hidden">
-        <div @click="changeMenuStatus" id="menu-btn" class="focus:outline-none">
+        <div @click="changeMenuStatus" id="menu-btn" class="focus:outline-none z-50">
             
             <button v-if="!menuStatus" class="p-3 bg-white rounded-lg shadow-md border border-gray-200 flex items-center justify-center
                hover:bg-indigo-100 hover:scale-110 transition transform duration-200 active:scale-95">
@@ -93,7 +93,7 @@
         </svg>
     </div>
 
-    <div :class="{ 'mr-0': menuStatus } " class="bg-red-200 h-screen w-1/2 fixed right-0 top-0 duration-300 -mr-[500px] md:hidden">
+    <div :class="{ 'mr-0': menuStatus } " class="bg-red-200 z-40 h-screen w-1/2 fixed right-0 top-0 duration-300 -mr-[500px] md:hidden">
 
     </div>
 

@@ -5,6 +5,10 @@
   <TshirtShop />
   <router-view />
   <todoList />
+  <Btn>
+    meow
+  </Btn>
+
 </template>
 
 <script>
@@ -16,6 +20,7 @@ import gallery from "./gallery.vue"
 import tab from "./tab.vue"
 import TshirtShop from "./Tshirt-shop.vue"
 import todoList from "./todoList.vue"
+import Btn from "./btn.vue"
 
 export default {
   name: "app",
@@ -25,6 +30,7 @@ export default {
     tab,
     TshirtShop,
     todoList,
+    Btn,
   },
   setup(){
     onMounted(() => {
