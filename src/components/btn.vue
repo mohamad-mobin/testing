@@ -1,14 +1,15 @@
 <template>
-    
-    <div class="mt-[500px]">
-        <button class="border cursor-pointer border-black py-2 px-5 rounded-md">
-            <slot>click</slot>
+    <div class="relative top-[420px] flex justify-center items-center border-t pt-5 border-black/20">
+        <button class=" border cursor-pointer py-2 px-7 rounded-2xl bg-red-400">
+            <slot>mobin</slot>
         </button>
     </div>
-
 </template>
 <script>
 export default {
-    name:'btn'
+    
 }
 </script>
+<style>
+    
+</style>

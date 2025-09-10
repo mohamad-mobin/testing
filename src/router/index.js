@@ -1,9 +1,9 @@
-import HomeBase from "@/components/homeBase.vue";
+import HomeBase from "@/views/homeBase.vue";
 import { createRouter, createWebHashHistory } from "vue-router";
 // import parent from "../components/parent.vue";
 const header = () => import("../components/headerMenu.vue");
-const product = () => import("../components/product.vue");
-const homeBase = () => import("../components/homeBase.vue");
+const product = () => import("../views/product.vue");
+const homeBase = () => import("../views/homeBase.vue");
 
 
 const routes = [
