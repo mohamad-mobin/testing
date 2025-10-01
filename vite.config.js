@@ -6,7 +6,6 @@ import vue from "@vitejs/plugin-vue";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/testing/",
   plugins: [vue(), tailwindcss()],
   base: "./",
   resolve: {
