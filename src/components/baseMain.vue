@@ -1,7 +1,6 @@
 <template>
 
 <div class="m-5 space-y-2 flex-col flex items-end">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis sit, nihil veniam blanditiis facere vero dolores temporibus. Doloribus necessitatibus error ut! Iure esse voluptate eos. Maxime magni beatae quas quisquam.
     <div class="flex items-center gap-2 select-none">
         <label for="samsung" class="cursor-pointer">samsung</label>
         <input value="samsung" v-model="userFilter" class="size-5 cursor-pointer" id="samsung" type="checkbox">
